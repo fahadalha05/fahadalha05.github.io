@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clash Royale Fan Page</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* === GENERAL STYLE === */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(180deg, #003399 0%, #0055cc 100%);
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+    }
+
+    header {
+      background: #1a1a1a url('https://i.imgur.com/hSy6Uhx.png') center/cover no-repeat;
+      padding: 40px;
+      text-align: center;
+      border-bottom: 5px solid #ffcc00;
+      box-shadow: 0 0 20px #000;
+    }
+
+    header h1 {
+      font-family: "Bangers", cursive;
+      color: #ffcc00;
+      font-size: 3.5em;
+      letter-spacing: 2px;
+      margin: 0;
+      text-shadow: 2px 2px #000;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.1);
+      border: 3px solid #ffcc00;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 0 20px #000;
+    }
+
+    h2 {
+      font-family: "Bangers", cursive;
+      color: #ffcc00;
+      font-size: 2em;
+      text-shadow: 1px 1px #000;
+    }
+
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+
+    .link-section {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .link-section img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      border: 2px solid #ffcc00;
+    }
+
+    .text-box {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #ffcc00;
+      color: #fff;
+      line-height: 1.6;
+      font-size: 1.1em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Clash Royale</h1>
+  </header>
+
+  <main>
+    <h2>Supercell Store & Linkit</h2>
+
+    <div class="link-section">
+      <img src="https://supercell.com/images/9dc4f2d9b93c52ed457d70f1799a09cc/clash-royale_icon.webp" alt="Clash Royale Icon">
+      <div>
+        <a href="#">Tästä tulee minun linkkini</a><br>
+        <a href="#">supercellstore</a>
+      </div>
+    </div>
+
+    <div class="text-box" style="margin-top: 30px;">
+      <p>Clash Royale on reaaliaikainen moninpelistrategiapeli, jossa taistellaan korteilla ja rakennetaan oma pakka.
+      Peli yhdistää torni-puolustuksen ja korttikeräilyn elementtejä, ja se on kehitetty Supercellin toimesta.</p>
+      <p>Tämä sivu on faniprojekti, joka on tehty tietotekniikan harjoitusta varten!</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Faniprojekti – Ei virallinen Supercell-sivu</p>
+  </footer>
+
+</body>
+</html>
